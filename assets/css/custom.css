@@ -1,0 +1,403 @@
+.tooltip-link {
+  text-decoration: none;
+  border-bottom: 2px dashed #333;
+  color: inherit;
+  font-size: 18px;
+}
+
+.tooltip-link:hover {
+  color: inherit;
+}
+
+.container {
+  background: transparent;
+}
+
+footer.container {
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+.bg-podcast {
+  background: url(../design/imgs/podcast.png) no-repeat;
+  max-width: 811px;
+  height: 268px;
+  background-size: contain;
+}
+
+/*menu*/
+.dropdown-menu {
+  background: #707070;
+  border-radius: 0;
+  padding: 20px 35px;
+  box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+  left: -1px !important;
+  top: -2px !important;
+}
+
+.dropdown-menu a {
+  border-bottom: 1px solid #fff;
+  padding: 0;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.dropdown-menu a:hover {
+  color: #fff;
+  background: none;
+  text-decoration: underline;
+}
+
+.dropdown-menu ul a i {
+  display: none;
+}
+
+.dropdown-menu ul a.ativo i {
+  display: inline;
+  margin-left: -15px;
+}
+
+.dropdown-menu li:last-child a {
+  border: none;
+}
+
+.bt-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+.fixar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  margin-top: unset;
+  z-index: 9;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-button i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.bg-light {
+  background: #e2e2e2;
+  border-bottom: 2px solid #a8a8a8;
+  border-top: 2px solid #bdbdbd;
+}
+
+.navbar-collapse {
+  background: none;
+}
+
+.nav-link i {
+  font-size: 25px;
+  color: #848383;
+  margin-right: 10px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 5px 0;
+}
+
+.offcanvas {
+  background-color: #00838d;
+}
+
+.dropdown button {
+  background: url("../design/imgs/menu-alt.png") center no-repeat;
+  background-color: #fff;
+  background-size: 70%;
+  box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  top: 15px;
+  left: 15px;
+  position: fixed;
+  z-index: 99999;
+}
+
+.dropdown-menu {
+  background: unset;
+  background-color: #00838D !important;
+}
+
+.bg-fundo {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 500;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  display: none;
+}
+
+.bg-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*fim do menu*/
+.bt-print {
+  margin-top: 20px;
+}
+
+.esquemaDaBru .alt-verdadeiro {
+  background: url('../design/imgs/bt_verdadeiro.png') center no-repeat;
+  width: 300px;
+  height: 81px;
+  border: none;
+}
+
+.esquemaDaBru .alt-verdadeiro:hover {
+  background: url('../design/imgs/verdadeiro_hv.png') center no-repeat;
+  box-shadow: none;
+}
+
+.esquemaDaBru .alt-verdadeiro.alt-e.selected {
+  background: url('../design/imgs/bt_verdadeiro_errado.png') center no-repeat;
+  box-shadow: none;
+}
+
+.esquemaDaBru .alt-verdadeiro.alt-c.selected {
+  background: url('../design/imgs/bt_verdadeiro_certo.png') center no-repeat;
+  box-shadow: none;
+}
+
+.esquemaDaBru .alt-falso {
+  background: url('../design/imgs/bt_falso.png') center no-repeat;
+  width: 300px;
+  height: 81px;
+  border: none;
+  background-position: center;
+}
+
+.esquemaDaBru .alt-falso:hover {
+  background: url('../design/imgs/falso_hv.png') center no-repeat;
+  box-shadow: none;
+}
+
+.esquemaDaBru .alt-falso.alt-e.selected {
+  background: url('../design/imgs/bt_falso_errado.png') center no-repeat;
+  box-shadow: none;
+}
+
+.esquemaDaBru .alt-falso.alt-c.selected {
+  background: url('../design/imgs/bt_falso_certo.png') center no-repeat;
+  box-shadow: none;
+}
+
+.bg-1 {
+  background: url(../design/imgs/bg-branco.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  padding: 40px;
+  color: #000;
+}
+
+.bg-2 {
+  background: url("../design/imgs/bg-verde.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  padding: 40px;
+  color: #fff;
+}
+
+.bg-2 h3 {
+  color: #fff;
+}
+
+.bg-1 h3 {
+  color: #00838D;
+}
+
+.frase_destaque {
+  background-color: #ff9200;
+  width: 30px;
+  height: 30px;
+}
+
+.caixa-destaque {
+  background: transparent;
+  border: dashed 2px #ff9700;
+  padding: 20px 30px;
+  margin: 30px auto;
+  color: #fff;
+
+}
+
+.infografico1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.teste {
+  background: #fff;
+  border: solid 1px #fff;
+  padding: 20px 30px;
+  margin: 45px auto;
+  color: #000;
+  border-radius: 20px;
+  position: relative;
+  width: 70%;
+  height: 115px;
+}
+
+.infoimg {
+  position: absolute;
+  left: -183px;
+  top: -63px;
+  scale: 0.8;
+}
+
+.caixa-destaque.destaque1::before {
+  background: url(../design/imgs/icone-atencao.png) no-repeat center transparent;
+  width: 127px;
+  height: 159px;
+  left: -100px;
+  top: -25px;
+}
+
+.caixa-destaque.destaque2::before {
+  background: url(../design/imgs/icone.png) no-repeat center transparent;
+  width: 127px;
+  height: 159px;
+  left: -100px;
+  top: -25px;
+}
+
+.rellax {
+  position: absolute;
+  width: 10%;
+}
+
+.rellax.direita {
+  right: 30px;
+}
+
+.rellax.esquerda {
+  left: 30px;
+}
+
+.rellax1 {
+  top: 390px;
+  width: 10%;
+}
+
+.rellax2 {
+  top: 860px;
+  width: 10%;
+}
+
+.rellax3 {
+  top: 1300px;
+  width: 10%;
+}
+
+.rellax4 {
+  top: 1824px;
+  width: 10%;
+}
+
+.rellax5 {
+  top: 2454px;
+  width: 10%;
+}
+
+.rellax6 {
+  top: 3135px;
+  width: 10%;
+}
+
+@media(max-width:768px) {
+  .infoimg {
+    left: 106px;
+    top: -146px;
+    scale: 0.5;
+  }
+
+  .teste {
+    margin: 52px auto;
+  }
+}
+
+@media(max-width:425px) {
+  .teste {
+    height: 100%;
+    width: 100%;
+  }
+
+  .infoimg {
+    left: 7px;
+    top: -137px;
+    scale: 0.4;
+  }
+
+  .bt-print {
+    margin-top: -9px;
+    width: 86%;
+    margin-right: -10px;
+  }
+
+  .caixa-destaque.destaque1::before {
+    background: none;
+  }
+
+  .caixa-destaque.destaque2::before {
+    background: none;
+  }
+
+  .bg-podcast {
+    background: none;
+  }
+
+  .img-citacao {
+    max-width: 335%;
+    position: relative;
+    right: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
