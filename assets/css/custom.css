@@ -4,7 +4,10 @@
   color: inherit;
   font-size: 18px;
 }
-
+.youtube {
+  width: 560px;
+  height: 315px;
+}
 .tooltip-link:hover {
   color: inherit;
 }
@@ -17,7 +20,31 @@ footer.container {
   background-color: transparent;
   margin-top: 30px;
 }
-
+.painel-gaitinha .accordion-button {
+  background-color: #00838D;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+  font-size: .9rem;
+  border-radius: 0;
+  height: 40px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+.painel-gaitinha .accordion-body {
+  background-color: #00838D;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+a{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
 .bg-podcast {
   background: url(../design/imgs/podcast.png) no-repeat;
   max-width: 811px;
@@ -350,6 +377,14 @@ footer.container {
   .teste {
     margin: 52px auto;
   }
+  .sesc-audio-player {
+    background-color: #00838D;
+    color: white;
+    padding: 8px 20px;
+    line-height: 0;
+    width: 30%;
+    margin: 20px 0;
+}
 }
 
 @media(max-width:425px) {
@@ -357,7 +392,14 @@ footer.container {
     height: 100%;
     width: 100%;
   }
-
+  .sesc-audio-player {
+    background-color: #00838D;
+    color: white;
+    padding: 8px 20px;
+    line-height: 0;
+    width: 100%;
+    margin: 20px 0;
+}
   .infoimg {
     left: 7px;
     top: -137px;
