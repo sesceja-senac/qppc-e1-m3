@@ -4,23 +4,28 @@
 }
 
 .imgCentro {
-    margin-top: 0%;
-    position: absolute;
+    margin-top: 6%;
+    /* position: absolute;
     left: 32%;
-    width: 35%;
+    width: 35%; */
 }
 
 #btIniciar {
-    position: absolute;
-    left: 37%;
-    z-index: 29;
-    top: 45% !important;
+    position: relative;
+    top: -590px;
 }
 
 #btIniciar:hover {
     transform: scale(1.1);
 }
-
+.titulo {
+    margin: auto;
+    display: block;
+    position: relative;
+    right: -461px;
+    top: 75px;
+    color: #fff;
+}
 .img-capa {
     left: 0%;
     top: 42%;
@@ -198,12 +203,32 @@
     }
 
     #btIniciar {
-        position: absolute;
-        left: 30%;
-        z-index: 29;
-        top: 77% !important;
+        position: relative;
+        top: -590px;
     }
 }
+
+
+
+@media screen and (min-width:1920px) {
+.titulo {
+    margin: auto;
+    display: block;
+    position: relative;
+    right: -678px;
+    top: 75px;
+    color: #fff;
+}
+}
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width:1440px) {
@@ -229,10 +254,8 @@
     }
 
     #btIniciar {
-        position: absolute;
-        left: 37%;
-        z-index: 29;
-        top: 48% !important;
+        position: relative;
+        top: -590px;
     }
 }
 
@@ -257,10 +280,10 @@
     }
 
     #btIniciar {
-        position: absolute;
-        left: 29%;
-        z-index: 29;
-        top: 65% !important;
+        position: relative;
+        top: 119px;
+        width: 12%;
+        right: 26px;
     }
 
     .img-capa {
@@ -278,6 +301,14 @@
     #logo {
         top: 2%;
         width: 9%
+    }
+    .titulo {
+        margin: auto;
+        display: block;
+        position: relative;
+        right: -249px;
+        top: 75px;
+        color: #fff;
     }
 }
 
@@ -304,10 +335,8 @@
     }
 
     #btIniciar {
-        position: absolute;
-        left: 20%;
-        z-index: 29;
-        top: 51% !important;
+        position: relative;
+        top: -590px;
     }
 
     .img-capa {
@@ -329,10 +358,16 @@
 
 @media only screen and (max-width:768px) {
     #btIniciar {
-        position: absolute;
-        left: 20%;
-        z-index: 29;
-        top: 54% !important;
+        position: relative;
+        top: 183px;
+    }
+    .titulo {
+        margin: auto;
+        display: block;
+        position: relative;
+        right: -61px;
+        top: 149px;
+        color: #fff;
     }
 }
 
@@ -354,11 +389,10 @@
     .footer {
         justify-content: center !important;
     }
-
     #btIniciar {
-        position: absolute;
-        left: 26%;
-        z-index: 29;
-        top: 70% !important;
+        position: relative;
+        top:154px;
+        width: 20%;
+        right: 17px;
     }
 }
