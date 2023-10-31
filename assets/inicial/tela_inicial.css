@@ -26,6 +26,14 @@
     top: 75px;
     color: #fff;
 }
+.titulo2 {
+    margin: auto;
+    display: block;
+    position: relative;
+    right: -461px;
+    top: 55px;
+    color: #fff;
+}
 .img-capa {
     left: 0%;
     top: 42%;
@@ -74,8 +82,8 @@
 }
 
 .imgVideo {
-    margin-left: 35px;
-    margin-top: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
     position: absolute;
     background: url('../design/capa/Video_apresentacao_pq_layout.png') no-repeat;
     background-size: 100%;
@@ -323,14 +331,14 @@
         background: #007981;
     }
 
-    .imgVideo {
+    /* .imgVideo {
         margin-left: 40px;
-    }
+    } */
 
     .imgCentro {
         margin-top: 23%;
         left: 7%;
-        width: 80%;
+        width: 90%;
         position: fixed !important;
     }
 
@@ -357,6 +365,14 @@
 }
 
 @media only screen and (max-width:768px) {
+    
+    .titulo2 {
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
     #btIniciar {
         position: relative;
         top: 183px;

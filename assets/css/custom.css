@@ -15,10 +15,12 @@
 .container {
   background: transparent;
 }
-
+.pagina > :last-child{
+  padding-bottom: 150px;
+}
 footer.container {
-  background-color: transparent;
-  margin-top: 30px;
+    background-color: transparent;
+    margin-top: -80px;
 }
 .painel-gaitinha .accordion-button {
   background-color: #00838D;
@@ -236,6 +238,22 @@ a:active{
   box-shadow: none;
 }
 
+.bg-refs {
+  background: url(../design/imgs/referencias.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  padding: 40px;
+  color: #000;
+}
+.bg-refs .container{
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-break: anywhere;
+}
 .bg-1 {
   background: url(../design/imgs/bg-branco.jpg);
   background-size: 100% 100%;
@@ -273,12 +291,20 @@ a:active{
 }
 
 .caixa-destaque {
-  background: transparent;
-  border: dashed 2px #ff9700;
-  padding: 20px 30px;
-  margin: 30px auto;
-  color: #fff;
+  padding: 40px;
+  padding-left: 80px;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #000;
 
+}
+.caixa-destaque.bg-escuro{
+  background-color: #00838D !important;
+  color: #fff !important;
 }
 
 .infografico1 {
@@ -312,7 +338,7 @@ a:active{
   background: url(../design/imgs/icone-atencao.png) no-repeat center transparent;
   width: 127px;
   height: 159px;
-  left: -100px;
+  left: -70px;
   top: -25px;
 }
 
@@ -320,9 +346,21 @@ a:active{
   background: url(../design/imgs/icone.png) no-repeat center transparent;
   width: 127px;
   height: 159px;
-  left: -100px;
+  left: -70px;
   top: -25px;
 }
+
+.caixa-destaque.ico_vocelembra {
+  max-width: 800px;
+}
+.caixa-destaque.ico_vocelembra::before {
+  background: url(../design/imgs/ico_vocelembra.png) no-repeat center transparent;
+  width: 127px;
+  height: 159px;
+  left: -68px;
+  top: -25px;
+}
+
 
 .rellax {
   position: absolute;
@@ -368,6 +406,17 @@ a:active{
 }
 
 @media(max-width:768px) {
+  
+  .sesc-audio-player {
+    background-color: #00838D;
+    color: white;
+    padding: 8px 20px;
+    line-height: 0;
+    width: 100%;
+    margin: 20px 0;
+}
+  .bt-print{ margin-top: -20px; min-width: 120px;}
+  
   .infoimg {
     left: 106px;
     top: -146px;
@@ -376,22 +425,27 @@ a:active{
 
   .teste {
     margin: 52px auto;
+    
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+  }
+  .teste:first-child{
+    margin-top: 100px;
+
   }
   .sesc-audio-player {
     background-color: #00838D;
     color: white;
     padding: 8px 20px;
     line-height: 0;
-    width: 30%;
+    width: 50%;
     margin: 20px 0;
-}
+    margin-top: 96px;
+  }
 }
 
 @media(max-width:425px) {
-  .teste {
-    height: 100%;
-    width: 100%;
-  }
   .sesc-audio-player {
     background-color: #00838D;
     color: white;
@@ -399,6 +453,8 @@ a:active{
     line-height: 0;
     width: 100%;
     margin: 20px 0;
+    
+    margin-top: 96px;
 }
   .infoimg {
     left: 7px;
@@ -411,18 +467,27 @@ a:active{
     width: 86%;
     margin-right: -10px;
   }
-
-  .caixa-destaque.destaque1::before {
-    background: none;
+  .bg-1, .bg-2{
+    padding-left: 10px;
+    padding-right: 10px;
   }
+  .caixa-destaque.ico_vocelembra,
+  .caixa-destaque.destaque1,
+  .caixa-destaque.destaque2{
+    padding: 120px 20px 20px 20px;
 
+  }
+  .caixa-destaque.ico_vocelembra::before,
+  .caixa-destaque.destaque1::before,
   .caixa-destaque.destaque2::before {
-    background: none;
+    left: 0;
+    right: 0;
+    margin:  auto;
   }
 
-  .bg-podcast {
+  /* .bg-podcast {
     background: none;
-  }
+  } */
 
   .img-citacao {
     max-width: 335%;
