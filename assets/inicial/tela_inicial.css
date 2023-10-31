@@ -29,9 +29,9 @@
 .titulo2 {
     margin: auto;
     display: block;
-    position: relative;
-    right: -461px;
-    top: 55px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
     color: #fff;
 }
 .img-capa {
@@ -274,7 +274,7 @@
     }
 
     .imgCentro {
-        margin-top: 5%;
+        margin-top: 125px;
     }
 
 }
@@ -283,8 +283,8 @@
     .imgCentro {
         margin-top: 11%;
         position: fixed;
-        left: 15%;
-        width: 66%;
+        left: 2%;
+        width: 97%;
     }
 
     #btIniciar {
@@ -336,16 +336,16 @@
     } */
 
     .imgCentro {
-        margin-top: 23%;
-        left: 7%;
+        margin-top: 160px;
+        left: 5%;
         width: 90%;
         position: fixed !important;
     }
 
-    #btIniciar {
+    /* #btIniciar {
         position: relative;
         top: -590px;
-    }
+    } */
 
     .img-capa {
         left: 0%;
@@ -367,7 +367,7 @@
 @media only screen and (max-width:768px) {
     
     .titulo2 {
-        top: 10px;
+        bottom: 50px;
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -381,7 +381,7 @@
         margin: auto;
         display: block;
         position: relative;
-        right: -61px;
+        left: 5%;
         top: 149px;
         color: #fff;
     }
