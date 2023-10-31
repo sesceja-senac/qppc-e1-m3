@@ -237,7 +237,9 @@ a:active{
   background: url('../design/imgs/bt_falso_certo.png') center no-repeat;
   box-shadow: none;
 }
-
+.painel-gaitinha  h2 h3{
+  font-size: 1rem;
+}
 .bg-refs {
   background: url(../design/imgs/referencias.jpg);
   background-size: 100% 100%;

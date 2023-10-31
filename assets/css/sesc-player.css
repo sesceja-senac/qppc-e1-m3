@@ -4,7 +4,8 @@
     color: white;
     padding: 8px 20px;
     line-height: 0;
-    margin: 20px 0;
+    margin: 10px 0;
+    max-width: 300px;
 }
 .sesc-audio-player .timestamp{
     display: inline-block;
