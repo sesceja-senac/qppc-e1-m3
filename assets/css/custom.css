@@ -338,11 +338,12 @@ a:active{
 }
 
 .caixa-destaque.destaque1::before {
-  background: url(../design/imgs/icone-atencao.png) no-repeat center transparent;
+  background: url(../design/imgs/ico_importante.png) no-repeat center transparent;
   width: 127px;
   height: 159px;
   left: -70px;
   top: -25px;
+  filter: drop-shadow(0 0 0.35rem black);
 }
 
 .caixa-destaque.destaque2::before {
@@ -351,6 +352,7 @@ a:active{
   height: 159px;
   left: -70px;
   top: -25px;
+  filter: drop-shadow(0 0 0.35rem black);
 }
 
 .caixa-destaque.ico_vocelembra {
