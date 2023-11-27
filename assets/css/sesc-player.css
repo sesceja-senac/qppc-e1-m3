@@ -1,6 +1,6 @@
 /*sesc audio player*/
 .sesc-audio-player{
-    background-color: #00838D;
+    /* background-color: #00838D; */
     color: white;
     padding: 8px 20px;
     line-height: 0;
@@ -10,11 +10,13 @@
 .sesc-audio-player .timestamp{
     display: inline-block;
     vertical-align: text-top;
-    margin-left: 20px; 
+    margin-left: 25%; 
     margin-top: 1rem;
 
     
 }
+.botoes{margin-top: 20% !important;
+margin-left: 18%;}
 .sesc-audio-player .btn-player{
     width: 40px;
     height: 40px;
@@ -61,7 +63,7 @@
 .sesc-audio-player  input[type=range] {
     -webkit-appearance: none;
     margin: 10px 0;
-    width: 100%;
+    width: 90%;
 }
 .sesc-audio-player  input[type=range]:focus {
     outline: none;

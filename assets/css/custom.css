@@ -413,11 +413,11 @@ a:active{
   top: 3135px;
   width: 10%;
 }
+.margem-top{margin-top: 10%;}
 
 @media(max-width:768px) {
   
   .sesc-audio-player {
-    background-color: #00838D;
     color: white;
     padding: 8px 20px;
     line-height: 0;
@@ -444,13 +444,13 @@ a:active{
 
   }
   .sesc-audio-player {
-    background-color: #00838D;
+    background-color: unset;
     color: white;
     padding: 8px 20px;
     line-height: 0;
     width: 50%;
     margin: 20px 0;
-    margin-top: 96px;
+    margin-top: 0px;
   }
 }
 @media(max-width:600px) {
@@ -458,7 +458,6 @@ a:active{
     text-align: center;
   }
   .bg-podcast{
-    background-color: #00838D;
     border-radius: 54px 54px 0px 0px;
   }
   .bg-podcast .row{
@@ -475,7 +474,29 @@ a:active{
     margin: 20px 0;
     margin-top: 140px;
   }
+  .botoes {
+    margin-top: 20% !important;
+    margin-left: 0%;
+    margin-bottom: 3%;
 }
+.sesc-audio-player input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+.sesc-audio-player .timestamp {
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 4%;
+  margin-top: 1rem;
+}
+}
+
+
+
+
+
+
 @media(max-width:425px) {
   .bg-podcast{
     background-color: #00838D;
