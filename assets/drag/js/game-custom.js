@@ -58,6 +58,10 @@ dragula({
   scrollable = true;
   countdrop++;
 
+
+  
+
+  
   //alert('INFO: '+el.id);
 
     if(slot1 == 0 && $('#slot-1').children().length>0){
@@ -125,5 +129,7 @@ dragula({
       audio.load(); //load the new source
       audio.play(); //play
 });
+
+
 
 // document.addEventListener('touchmove', function(e) { e.preventDefault(); }, { passive:false });
