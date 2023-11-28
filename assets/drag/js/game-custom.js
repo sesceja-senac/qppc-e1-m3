@@ -60,8 +60,6 @@ dragula({
 
 
   
-
-  
   //alert('INFO: '+el.id);
 
     if(slot1 == 0 && $('#slot-1').children().length>0){
