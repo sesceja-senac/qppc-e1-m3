@@ -42,11 +42,7 @@ dragula({
   scrollable = true;
   if($('.game-itens-container .card').length>0){
     $('#bgmodal-acerto').modal('show')
-    console.log("if");
-
   }else{
-    console.log("else");
-
     $('#bgmodal-conclusao').modal('show')
 
   }
