@@ -40,11 +40,20 @@ dragula({
   scrollable = false;
 }).on("drop", function(){
   scrollable = true;
+  if($('.game-itens-container .card').length>0){
+    $('#bgmodal-acerto').modal('show')
+    console.log("if");
 
-  $('#bgmodal-acerto').modal('show')
-      audio.setAttribute('src','audios/acerto.mp3'); //change the source
-      audio.load(); //load the new source
-      audio.play(); //play
+  }else{
+    console.log("else");
+
+    $('#bgmodal-conclusao').modal('show')
+
+  }
+  audio.setAttribute('src','audios/acerto.mp3'); //change the source
+  audio.load(); //load the new source
+  audio.play(); //play
+
 
 }).on("cancel", function(){
   scrollable = true;
