@@ -65,7 +65,7 @@ var EsquemaDaBru = {
                 el.clear();
                 this.classList.add('selected');
                 if(original) this.classList.add('certo');
-                $(feed_positivo).fadeIn(200);                
+                $(feed_positivo).fadeIn(200);            
             })
 
             btsErrados.forEach(function(bt,index){
