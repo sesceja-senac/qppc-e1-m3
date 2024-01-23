@@ -282,6 +282,10 @@ a:active{
   color: #fff;
 }
 
+h3{
+  margin-top: 40px;
+}
+
 .bg-2 h3 {
   color: #fff;
 }
