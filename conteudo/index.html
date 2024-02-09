@@ -1285,8 +1285,37 @@
                     <div class="container">
                         <h3>Um passeio pela economia criativa brasileira</h3>
                         <p>Nesta página, você trilhará um caminho de descobertas sobre o setor da economia criativa no Brasil. Enquanto caminha, você desbravará novos espaços com importantes informações sobre as diferentes áreas e atividades criativas. A cada parada, terá a oportunidade de absorver dados valiosos sobre cultura, mídia, criações funcionais e tecnologia. Que essa experiência inspire novas conexões e entendimentos e auxilie você a compreender um pouco mais sobre o setor criativo brasileiro. </p>
-
-                        <iframe style="height: 300px; width: 100%; background-color: black; margin: 30px;" class="img-fluid d-block mx-auto no-print"></iframe>
+                        <p>Clique ou toque na imagem abaixo para abrir o conteúdo:</p>
+                        <style>
+                            .link-obj {
+                                display: block;
+                                overflow: hidden;
+                                width: 100%;
+                                padding-top: 0px;
+                                height: auto;
+                                position: relative;
+                                transition: 0.25s
+                            }
+                            .link-obj:hover {
+                                transform: scale(1.05);
+                                transition: 0.25s
+                            }
+                            .link-obj::before {
+                                content: "";
+                                width: 100%;
+                                height: auto;
+                                display: block;
+                                padding-top: 45%;
+                                }
+                            .link-obj img {
+                                position: absolute;
+                                top: -4px;
+                            }
+                        </style>
+                        <a href="objeto/index.html" class="link-obj" target="_blank">
+                            <img src="objeto/thumb.jpg" class="img-fluid" alt="abrir objeto">
+                        </a>
+                        
                     </div>
                 </div>
             </div>
