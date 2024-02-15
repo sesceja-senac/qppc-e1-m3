@@ -25,6 +25,8 @@ switch(window.location.search){
     localStorage.setItem('pagina5','visitada')
     case '?page=6':
       localStorage.setItem('pagina6','visitada')
+    case '?page=7':
+        localStorage.setItem('pagina6','visitada')
       break;
 }
 
@@ -34,6 +36,7 @@ if(localStorage['pagina3']=='visitada'){document.querySelectorAll('.pagination l
 if(localStorage['pagina4']=='visitada'){document.querySelectorAll('.pagination li')[3].classList.add('visitada')}
 if(localStorage['pagina5']=='visitada'){document.querySelectorAll('.pagination li')[4].classList.add('visitada')}
 if(localStorage['pagina6']=='visitada'){document.querySelectorAll('.pagination li')[5].classList.add('visitada')}
+if(localStorage['pagina7']=='visitada'){document.querySelectorAll('.pagination li')[5].classList.add('visitada')}
 
 
 })

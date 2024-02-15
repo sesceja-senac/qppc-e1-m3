@@ -241,7 +241,7 @@ a:active{
   font-size: 1rem;
 }
 .bg-refs {
-  background: url(../design/imgs/referencias.jpg);
+  background: url(../design/imgs/refs_bg.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -255,8 +255,9 @@ a:active{
   padding-top: 20px;
   padding-bottom: 200px;
   line-break: anywhere;
+  margin-top: -21px;
 }
-.pagina-6 .bg-refs{
+.pagina-7 .bg-refs{
   padding-bottom: 0px !important;
 }
 .bg-1, .pagina-4 {
@@ -414,10 +415,19 @@ h3{
 }
 
 .rellax6 {
-  top: 3135px;
+  top: 2726px;
   width: 10%;
 }
 .margem-top{margin-top: 10%;}
+
+@media(max-width:820px) {
+.bg-refs {
+  background: unset;
+  margin-bottom: -20px;
+  padding: 40px;
+  color: #000;
+}
+}
 
 @media(max-width:768px) {
   
@@ -494,6 +504,7 @@ h3{
   margin-left: 4%;
   margin-top: 1rem;
 }
+
 }
 
 
